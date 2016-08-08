@@ -1,0 +1,14 @@
+/*Tipografía para todos los h2*/
+h2{
+	font-family: 'Open Sans', sans-serif;
+}
+/*Tipografía para todos los h3*/
+h3{
+	font-family: 'Open Sans', sans-serif;
+}
+/*Todos los <p> llevan este estilo de tipografía*/
+p{
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	color: #888;
+}
