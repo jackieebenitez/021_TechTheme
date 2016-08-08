@@ -1,0 +1,59 @@
+/* Comienza trabajo de Mariana Pacheco */
+
+.bg-principal{		/* Background banner principal */
+	background-image: url("../img/background/hero.jpg");
+ 	height: 650px;
+ 	background-position: center top; 
+ 	background-size: cover;
+	background-repeat: no-repeat;
+ }
+
+ .primes{
+ 	color:#ffffff;
+ }
+
+ .li-menu{		/* Estilos del menu */
+	margin: 13px 0px 0px 50px;
+	display: inline-block;
+	font-size: 18px; 
+}
+
+.ul-menu{
+	margin-left: 30%;
+}
+
+.cont-logo{
+	margin-left: 30%;
+}
+
+body {		/* No aparezca la barra de deslazamiento horizontal */
+   overflow-x: hidden;
+}
+
+a{		/* Links sin decoracion */
+	text-decoration: none;
+}
+
+a:visited{
+	color:#fff;
+}
+
+.transparencia{		/* Transparencia para oscurecer la imagen */
+	height:650px;
+	background: rgba(0,0,0,0.6);
+}
+
+.big{
+	font-size: 60px;
+	margin-top: 15%;
+}
+
+.p-16{
+	font-size: 16px;
+}
+
+.pd-2{
+	padding: 2%;
+}
+
+/* Finaliza trabajo de Mariana Pacheco */
