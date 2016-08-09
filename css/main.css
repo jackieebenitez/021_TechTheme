@@ -1,5 +1,3 @@
-/* Comienza trabajo de Mariana Pacheco */
-
 .bg-principal{		/* Background banner principal */
 	background-image: url("../img/background/hero.jpg");
  	height: 650px;
@@ -38,11 +36,6 @@ a:visited{
 	color:#fff;
 }
 
-.transparencia{		/* Transparencia para oscurecer la imagen */
-	height:650px;
-	background: rgba(0,0,0,0.6);
-}
-
 .big{
 	font-size: 60px;
 	margin-top: 15%;
@@ -56,4 +49,118 @@ a:visited{
 	padding: 2%;
 }
 
-/* Finaliza trabajo de Mariana Pacheco */
+.contenedor{
+	padding: 2%;
+	width: 82%;
+ 	height: 70%;
+ 	background-color: #fff;
+ 	margin-top: 5%;
+}
+
+.image-portfolio{
+	width: 100%;
+	height: 100%;
+}
+
+.ml-20{
+	margin-left: 20%;
+}
+
+.m-b{		/* Margin boton load more seccion portfolio */
+	margin-left: 93%;
+}
+
+.bg-im{
+	background-image: url("../img/background/contactus.jpg");
+ 	height: 600px;
+ 	background-position: center top; 
+ 	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#trans-contact{
+	height: 900px;
+}
+
+#back-gris-alto{
+	height: 100%;
+}
+
+.mr{
+	margin-right: 20%;
+}
+
+.p-contact{		/* Estilo del texto Contactanos */
+ 	font-size: 24px;
+ 	font-weight: bold;
+ 	margin-bottom: 20px;
+ 	margin-left: 10%;
+ }
+
+form{		/* Estilo etiqueta form */
+	width: 700px;
+	margin: auto;
+	padding: 10px 150px;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+
+input, textarea{		/* Estilo de las cajas de texto (nombre email y mensaje) */
+ 	width: 100%;
+ 	margin-bottom:20px;
+ 	padding: 7px;
+ 	box-sizing: border-box;
+ 	font-size: 17px;
+ 	background: #fff;
+ 	opacity: .15;
+ 	border:0px;
+ }
+
+ textarea{		/* Estilo del area de mensaje */
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+ }
+
+ #boton{			/* Boton formulario */
+ 	background-color: #1FBFB3;
+ 	padding: 10px;
+ 	color: #fff;
+ 	width: 30%;
+ 	border:0px;
+ }
+
+ #boton:hover{		/* Boton formulario */
+ 	cursor: pointer;
+ }
+
+.pd{		/* Espacio footer */
+	padding: 1% 0% 1% 1%;
+ }
+
+
+
+
+
+
+
+
+/*Tipografía para todos los h3*/
+.back-gris{
+	background-color: #e1e1e1;
+	height:300px;
+	padding-top:4%;
+	margin:0px;
+}
+/*Background laptop "More Features"*/
+.laptop{
+	background-image: url("../img/laptop.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center top;
+	margin-left:0px;
+	max-width: 100%;
+    height:600px;
+    background-color: #e1e1e1;
+}
+
